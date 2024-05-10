@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-const baseURL = 'https://backpharma.onrender.com/api';
-String imgUrl = 'https://backpharma.onrender.com/';
+const baseURL = 'http://192.168.43.220:8000/api';
+String imgUrl = 'http://192.168.43.220:8000/';
 const loginURL = baseURL + '/loginApi';
 const logout = baseURL + '/logout';
 const userURL = baseURL + '/userGet';
