@@ -18,6 +18,7 @@ class BaseClient {
     if (response.statusCode == 200) {
       return response.body;
     } else {
+      return response.body;
       //throw exception and catch it in UI
     }
   }
